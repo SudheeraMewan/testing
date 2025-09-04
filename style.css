@@ -1,0 +1,233 @@
+body {
+    background-color: white;
+    text-align: center;
+}
+
+.page-container {
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+
+.logo-img {
+    height: 75px;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+
+/* nav bar */
+
+nav {
+   border-top: 1px solid black ; 
+   border-bottom: 1px solid black;
+   
+   
+}
+
+nav a {
+    font-size: 13px;
+    margin-right: 5px;
+    /* margin-top: 5px; */
+    margin-bottom: 5px;
+    line-height: 1.7;
+    
+    
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+
+}
+a:hover {
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a:active {
+    background-color: white;
+    font-style: italic;
+}
+
+/* footer */
+.footer-web {
+    background-color: aliceblue;
+    line-height: 1.5;
+    font-size: 10px;
+}
+
+.article-container {
+    display: inline;
+    text-align: center;
+}
+
+.img-01 {
+    margin-top: 1px;
+    height: 75px;
+    /* margin-right: 10px;
+    margin-left: 5px; */
+}
+
+
+
+.about-us {
+    background-color: aliceblue;
+}
+
+.about-us-h3 {
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+.about-us-p {
+    padding-bottom: 5px;
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.card {
+    width: 250px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 10px;
+
+}
+.card img {
+    height: 150px;
+    padding-top: 20px;
+    border-radius: 1px;
+
+}
+
+.card-container h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+    text-align: center;
+
+}
+
+.card-content p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.3;
+    text-align: center;
+    text-transform: none;
+
+}
+
+.card-content h3 {
+    text-transform: uppercase;
+}
+
+.card-content .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.fish-containe {
+    background-color: aqua;
+    text-transform: uppercase;
+}
+
+.fish-containe h3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+/* contact */
+
+.Contact {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    justify-content: center;
+    
+}
+
+.Contact h1 {
+    font-size: 40px;
+    
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.contact-card {
+    height: 250px;
+    width: 200px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.contact-card-content h3 {
+    font-size: 20px;
+}
+
+.contact-card-content p{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.contact-card img {
+    padding: 10px;
+}
+
+/* contact card */
+
+.contact-button {
+    background-color: rgba(0, 145, 255, 0.527);
+    border-radius: 1px;
+    padding: 3px 2px 2px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.contact-button:active {
+    box-shadow: 0 2px 0 #f0f0f0;
+    transform: translateY(3px);
+}
+
+.contact-button a {
+    text-decoration: none;
+    color: rgb(15, 14, 14);    
+}
+
+/* contact button */

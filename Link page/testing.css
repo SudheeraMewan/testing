@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+/* PAGE SECTION */
+body {
+    color: #444;
+    font-family: sans-serif;
+
+    border-top: 10px solid #1098ad;
+    position: relative;
+
+}
+
+.container {
+    width: 800px;
+    /* margin-left: auto;
+    margin-right: auto; */
+
+    margin: 0 auto;
+}
+
+.main-header {
+    background-color: #f7f7f7;
+    /* padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px; */
+    padding: 20px 40px;
+    margin-bottom: 60px;
+}
+nav {
+    font-size: 10px;
+    /* text-align: center; */
+}
